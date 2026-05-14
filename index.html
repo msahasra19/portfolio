@@ -39,9 +39,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:.9rem 3rem;display:f
 .hero-inner{width:100%;}
 .hero-top{display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:start;margin-bottom:3rem;}
 .hero-top > div:first-child{padding-top:.35rem;}
-.hero-side{display:flex;flex-direction:column;gap:1rem;align-items:stretch;}
-.hero-photo{background:var(--bg2);border:1px solid var(--border);border-radius:10px;padding:.75rem;overflow:hidden;}
-.hero-photo img{display:block;width:340px;max-width:100%;height:340px;object-fit:cover;border-radius:8px;}
 .chip{display:inline-flex;align-items:center;gap:.45rem;background:rgba(0,200,255,.07);border:1px solid rgba(0,200,255,.2);border-radius:20px;padding:.3rem .9rem;font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--accent);letter-spacing:.1em;margin-bottom:1.25rem;}
 .hero-name{font-size:4.5rem;font-weight:600;line-height:1;letter-spacing:-.04em;margin-bottom:.75rem;}
 .hero-name .hl{color:var(--accent);position:relative;}
@@ -260,11 +257,7 @@ footer{border-top:1px solid var(--border);padding:1.5rem 3rem;display:flex;justi
           <a href="https://www.linkedin.com/in/sahasra-miriyala-180aa7320" target="_blank" class="btn-g">LinkedIn ↗</a>
         </div>
       </div>
-      <div class="hero-side">
-        <div class="hero-photo">
-          <img src="profile.jpeg" alt="Sahasra Miriyala photo"/>
-        </div>
-        <div class="terminal">
+      <div class="terminal">
         <div class="term-bar">
           <div class="term-dot" style="background:#FF5F57;"></div>
           <div class="term-dot" style="background:#FFBD2E;"></div>
@@ -286,7 +279,6 @@ footer{border-top:1px solid var(--border);padding:1.5rem 3rem;display:flex;justi
           <div style="padding-left:1rem;"><span class="t-key">"published"</span>: <span class="t-str">true</span>,</div>
           <div style="padding-left:1rem;"><span class="t-muted">// ICERCS2025</span></div>
           <div class="t-muted">}<span class="t-cursor"></span></div>
-        </div>
         </div>
       </div>
     </div>
@@ -408,7 +400,7 @@ footer{border-top:1px solid var(--border);padding:1.5rem 3rem;display:flex;justi
         <div class="proj-icon pi-purple">🎙️</div>
         <span class="pbadge p">Fully Local</span>
       </div>
-      <div class="proj-name">AI Voice Spoofing Detection System</div>
+      <div class="proj-name">AI Voice Detection System</div>
       <div class="proj-desc">Local deepfake audio detection — no cloud APIs. Two-layer approach: Random Forest on MFCC + Spectral features, plus custom heuristics (SNR, pitch variance) to catch bleeding-edge TTS voices.</div>
       <div class="proj-feats">
         <div class="pf">Per-second deepfake confidence timeline</div>
