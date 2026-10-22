@@ -462,6 +462,7 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
     <button class="sf-btn" data-filter="db">Databases &amp; Caching</button>
     <button class="sf-btn" data-filter="core">Core CS &amp; Security</button>
     <button class="sf-btn" data-filter="lang">Languages</button>
+    <button class="sf-btn" data-filter="cert">Certifications</button>
   </div>
   <div class="skills-grid reveal">
     <div class="skill-cat" data-cat="ai web">
@@ -530,8 +531,11 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
         <span class="tag">Tailwind CSS</span>
         <span class="tag">Node.js</span>
         <span class="tag">Express.js</span>
+        <span class="tag">Flask</span>
+        <span class="tag">PyJWT</span>
         <span class="tag">Axios &amp; SWR</span>
         <span class="tag">RESTful APIs</span>
+        <span class="tag">PWA</span>
         <span class="tag">Full CRUD Pipelines</span>
         <span class="tag">Glassmorphic UI</span>
         <span class="tag">Data Export (PDF/CSV/XML/JSON/MD)</span>
@@ -543,6 +547,7 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
       <div class="tags">
         <span class="tag">MongoDB</span>
         <span class="tag">Mongoose ODM</span>
+        <span class="tag">SQLite</span>
         <span class="tag">1-Hour Smart Query Caching</span>
         <span class="tag">Firebase Firestore</span>
         <span class="tag">Firebase RTDB</span>
@@ -577,6 +582,18 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
         <span class="tag">Rootkit Analysis</span>
       </div>
     </div>
+    <div class="skill-cat" data-cat="cert">
+      <div class="skill-cat-label">Certifications &amp; Honors</div>
+      <div class="tags">
+        <span class="tag">Certified AI Engineer</span>
+        <span class="tag">IEEE ICERCS 2025 Author</span>
+        <span class="tag">Top 10 Hackathon Finalist</span>
+        <span class="tag">8th Place Eco Network</span>
+        <span class="tag">React Bootcamp</span>
+        <span class="tag">Flutter Bootcamp</span>
+      </div>
+    </div>
+  </div>
   </div>
 </section>
 
@@ -782,15 +799,38 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
 
 <section id="experience">
   <div class="sec-label">Experience</div>
-  <div class="sec-title">Work &amp; Leadership</div>
+  <div class="sec-title">Work &amp; Internships</div>
   <div class="timeline reveal">
+    <div class="tl-item">
+      <div class="tl-date">August 2026 – October 2026 (3 months)</div>
+      <div class="tl-card">
+        <div class="tl-title">Full Stack Engineer Intern</div>
+        <div class="tl-org">Product Manager Accelerator</div>
+        <div class="tl-bullets">
+          <div class="tlb">Contributed to BumpToBloom, a mobile-first platform delivering AI-powered personalized guidance and experiences for new parents.</div>
+          <div class="tlb">Engineered scalable features across frontend and backend, integrating RESTful APIs and optimizing database architectures.</div>
+          <div class="tlb">Enhanced platform mobile experience, usability, and offline accessibility through Progressive Web App (PWA) capabilities.</div>
+        </div>
+      </div>
+    </div>
+    <div class="tl-item">
+      <div class="tl-date">June 2026 – July 2026 (2 months)</div>
+      <div class="tl-card">
+        <div class="tl-title">Software Developer Intern</div>
+        <div class="tl-org">Cyient · Hyderabad, India</div>
+        <div class="tl-bullets">
+          <div class="tlb">Built a full-stack web application using Flask, SQLite, and PyJWT for secure session management and authentication.</div>
+          <div class="tlb">Developed dynamic responsive frontends using HTML, CSS, JavaScript, and Jinja2 with optimized database query workflows.</div>
+        </div>
+      </div>
+    </div>
     <div class="tl-item">
       <div class="tl-date">September 2025 – Present</div>
       <div class="tl-card">
         <div class="tl-title">Technical Team Member</div>
         <div class="tl-org">Y-SoC (Youth Summer of Code)</div>
         <div class="tl-bullets">
-          <div class="tlb">Managing technical infrastructure and developer workflows to support Y-SoC's mission of making open-source contributions accessible to all developers.</div>
+          <div class="tlb">Managing technical infrastructure, issue triaging, contributor coordination, and repository management to make open-source accessible.</div>
         </div>
       </div>
     </div>
@@ -801,17 +841,6 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
         <div class="tl-org">IEEE Photonics Society — VIT Chennai Chapter</div>
         <div class="tl-bullets">
           <div class="tlb">Coordinating technical events, logistics, and internal communications to ensure seamless execution of technical workshops and society initiatives.</div>
-        </div>
-      </div>
-    </div>
-    <div class="tl-item">
-      <div class="tl-date">2024</div>
-      <div class="tl-card">
-        <div class="tl-title">Web Development Intern</div>
-        <div class="tl-org">Edunet Foundation — IBM SkillsBuild</div>
-        <div class="tl-bullets">
-          <div class="tlb">Engineered responsive full-stack web components using HTML5, CSS3, JavaScript, Node.js, and RESTful APIs.</div>
-          <div class="tlb">Collaborated via Git and GitHub for team feature branches, code reviews, and version control.</div>
         </div>
       </div>
     </div>
@@ -826,10 +855,15 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
   <div class="research-card reveal">
     <div class="rc-icon">📄</div>
     <div>
-      <div class="rc-conf">ICERCS2025 — International Conference</div>
-      <div class="rc-title">Smart Agriculture via Hybrid ML &amp; DL for Plant Disease Identification</div>
-      <div class="rc-desc">Architected a hybrid plant pathology detection pipeline utilizing MobileNetV2, SVM, KNN, and GLCM-based feature extraction paired with adaptive image segmentation. Achieved peak classification accuracies between 79.45% and 99.98% across diverse agricultural leaf datasets.</div>
-      <div class="rc-badge">✓ Accepted &amp; Presented</div>
+      <div class="rc-conf">ICERCS 2025 — IEEE Xplore</div>
+      <div class="rc-title">Smart Agriculture Through Hybrid Deep Learning and Machine Learning Approaches for Plant Disease Identification</div>
+      <div class="rc-desc">Published in <strong>IEEE Xplore</strong> at ICERCS 2025. Architected a hybrid CNN, MobileNetV2, and SVM-based plant disease identification system with image preprocessing and GLCM feature extraction, achieving classification accuracies of up to 99.98% across diverse agricultural leaf datasets.</div>
+      <div class="rc-badges" style="display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-top:.9rem;">
+        <span class="rc-badge">✓ IEEE Xplore · Presented</span>
+        <a href="https://doi.org/10.1109/ICERCS65898.2025.11580508" target="_blank" rel="noopener noreferrer" class="rc-badge" style="color:var(--accent);border-color:rgba(0,200,255,.35);background:rgba(0,200,255,.08);text-decoration:none;transition:all .2s;">
+          DOI: 10.1109/ICERCS65898.2025.11580508 ↗
+        </a>
+      </div>
     </div>
   </div>
 </section>
@@ -852,8 +886,8 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
     </div>
     <div class="ach-card">
       <div class="ach-icon">📄</div>
-      <div class="ach-title">ICERCS2025 Publication</div>
-      <div class="ach-sub">Authored and presented peer-reviewed research on hybrid ML/DL for automated plant disease identification.</div>
+      <div class="ach-title">IEEE Xplore Publication</div>
+      <div class="ach-sub">Authored and presented peer-reviewed research on hybrid ML/DL for plant disease identification (DOI: 10.1109/ICERCS65898.2025.11580508).</div>
     </div>
     <div class="ach-card">
       <div class="ach-icon">☁️</div>
@@ -877,8 +911,11 @@ footer{border-top:1px solid var(--border);padding:1.75rem 3rem;display:flex;just
       <h2>Let's Build Something Great</h2>
       <p>Open to <strong style="color:var(--text)">AI/ML Engineering, Full-Stack Development, and Software Engineering</strong> opportunities. Whether you are building next-generation AI platforms, audio intelligence tools, or scalable cloud systems — let's connect.</p>
       <div class="clinks">
-        <a href="mailto:sahasramiriyala08@gmail.com" class="clink">
-          <span class="clink-icon">✉</span>sahasramiriyala08@gmail.com
+        <a href="mailto:miriyalasahasra339@gmail.com" class="clink">
+          <span class="clink-icon">✉</span>miriyalasahasra339@gmail.com
+        </a>
+        <a href="tel:+917794986979" class="clink">
+          <span class="clink-icon">☎</span>+91-77949 86979
         </a>
         <a href="https://github.com/msahasra19" target="_blank" rel="noopener noreferrer" class="clink">
           <span class="clink-icon">⌥</span>github.com/msahasra19
